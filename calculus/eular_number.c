@@ -1,8 +1,8 @@
 /**
  * @ Author: Chenminhua
  * @ Create Time: 2019-08-22 21:30:37
- * @ Modified by: Your name
- * @ Modified time: 2019-08-22 21:51:53
+ * @ Modified by: Minhua Chen
+ * @ Modified time: 2019-08-23 11:51:47
  * @ Description:
  */
 #include <stdio.h>
@@ -26,7 +26,7 @@ float eluar2() {
 }
 
 int main() {
-    printf("calculus eular number by (1 + 1/n) ^ n = %f\n", eular1());
-    printf("calculus eular number by infinite series (Maclaurin series) %f\n", eluar2());
+    printf("calculate eular number by (1 + 1/n) ^ n = %f\n", eular1());
+    printf("calculate eular number by infinite series (Maclaurin series) %f\n", eluar2());
     return 0;
 }
