@@ -2,7 +2,7 @@
  * @ Author: Minhua Chen
  * @ Create Time: 2019-08-24 09:56:56
  * @ Modified by: Minhua Chen
- * @ Modified time: 2019-08-24 10:43:55
+ * @ Modified time: 2019-08-24 12:39:33
  * @ Description:
  */
 
@@ -18,7 +18,7 @@ void print_matrix(int* mat, int row, int col) {
         }
         
     }
-     printf("--------c--------------------\n");
+     printf("----------------------------\n");
 }
 
 int main(int argc, char* argv[]) {
@@ -50,6 +50,7 @@ int main(int argc, char* argv[]) {
                 result[r*m_size + c] += mat1[r*m_size+n] * mat2[n*m_size+c]; 
             }
         }
+        printf("row index: %d\n", r);
     }
 
     if (m_size < 10) {
