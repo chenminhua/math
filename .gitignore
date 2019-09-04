@@ -1,3 +1,5 @@
 .vscode
 a.out
 eigen
+.idea
+cmake-build-debug
